@@ -74,10 +74,10 @@ class Program
 
         Console.WriteLine("Demonstrating Polymorphism:");
 
-        foreach (Shape in shapes)
+        foreach (Shape Shapes in shapes)
         {
-            shape.Draw();
-            shape.Erase();
+            Shapes.Draw();
+            Shapes.Erase();
             Console.WriteLine(); // Separate output for each shape
         }
     }
